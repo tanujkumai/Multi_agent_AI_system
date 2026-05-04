@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 #model setup 
-llm = ChatMistralAI(model= "mistral-small-2506")
+llm = ChatMistralAI(model_name= "mistral-small-2506")
 
 
 #1st agent 
