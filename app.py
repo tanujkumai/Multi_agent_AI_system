@@ -159,7 +159,7 @@ html, body, [class*="css"] {
     content: '';
     position: absolute;
     left: 0; top: 0; bottom: 0;
-    width: 3px;
+    width: 3.0px;
     border-radius: 14px 0 0 14px;
     background: rgba(255,255,255,0.05);
     transition: background 0.3s;
