@@ -10,7 +10,6 @@ load_dotenv()
 #model setup 
 llm = ChatMistralAI(model_name= "mistral-small-2506")
 
-
 #1st agent 
 def build_search_agent():
     return create_agent(
